@@ -8,9 +8,9 @@ Currently Flexify supports up to 5 images, with optional linking.
 
 - jQuery 1.6.2 or higher
 
-# Setup
+## Setup
 
-Follow below to setup Flexify on your Shopify site.
+Follow the steps below to setup Flexify on your Shopify site.
 
 ### Asset uploads
 
@@ -55,7 +55,7 @@ Finally, include the Flexify snippet in your theme by adding the following in _L
 
 Upload images, add links, and edit slider settings directly from your theme settings. Enjoy your new slider!
 
-###	Authors
+## Authors
 
 - The awesome people who made [FlexSlider](https://github.com/woothemes/FlexSlider)
 - Shopified by [Adrian Pawliszko](http://nairda.ca)
