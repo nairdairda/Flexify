@@ -49,5 +49,5 @@ Finally, include the Flexify snippet in your theme by adding the following in _L
 
 ###	Authors
 
-- The awesome authors of [FlexSlider](https://github.com/woothemes/FlexSlider)
+- The awesome people who made [FlexSlider](https://github.com/woothemes/FlexSlider)
 - Shopified by [Adrian Pawliszko](http://nairda.ca)
