@@ -8,19 +8,23 @@ Currently Flexify supports up to 5 images, with optional linking.
 
 - jQuery 1.6.2 or higher
 
-## Asset uploads
+# Setup
+
+Follow below to setup Flexify on your Shopify site.
+
+### Asset uploads
 
 Upload all the files from the assets folder into your theme assets.
 
-## Snippet creation
+### Snippet creation
 
 Create a new snippet and name it '**flexify**'. Copy and paste the contents of **flexify.liquid** into the file and save.
 
-## Settings
+### Settings
 
 Add the contents of **settings.html** to the bottom of your theme's _Configs > settings.html_.
 
-## Implement
+### Implement
 
 Open your theme's _Layout > theme.liquid_, and add the following into your header.
 
@@ -46,6 +50,10 @@ Finally, include the Flexify snippet in your theme by adding the following in _L
 	{% include 'flexify' %}
 {% endif %}
 ```
+
+### Enjoy!
+
+Upload images, add links, and edit slider settings directly from your theme settings. Enjoy your new slider!
 
 ###	Authors
 
