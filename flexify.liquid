@@ -1,17 +1,17 @@
 <div class="flexify">
-	<ul class="slides">
-		{% for i in (1..5) %}
-	        {% capture slide_enabled %}slider_slide_{{ i }}_enabled{% endcapture %}
-            {% capture slide_image %}slider_slide_{{ i }}.jpg{% endcapture %}
-            {% capture slide_link %}slider_slide_{{ i }}_link{% endcapture %}
-            
-            {% if settings[slide_enabled] %}
-            	<li>
-         			{% if settings[slide_link] != "" %}<a href="{{ settings[slide_link] }}"><img src={{ slide_image | asset_url }} /></a>{% else %}
-                    <img src={{ slide_image | asset_url }} />
-                    {% endif %}
-				</li>
-            {% endif %}             
-        {% endfor %}
-	</ul>
+  <ul class="slides">
+    {% for i in (1..5) %}
+      {% capture slide_enabled %}slider_slide_{{ i }}_enabled{% endcapture %}
+      {% capture slide_image %}slider_slide_{{ i }}.jpg{% endcapture %}
+      {% capture slide_link %}slider_slide_{{ i }}_link{% endcapture %}
+      
+      {% if settings[slide_enabled] %}
+        <li>
+          {% if settings[slide_link] != "" %}<a href="{{ settings[slide_link] }}"><img src={{ slide_image | asset_url }} /></a>{% else %}
+          <img src={{ slide_image | asset_url }} />
+          {% endif %}
+        </li>
+      {% endif %}             
+    {% endfor %}
+  </ul>
 </div>
