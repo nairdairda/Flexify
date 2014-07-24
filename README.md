@@ -50,4 +50,4 @@ Finally, include the Flexify snippet in your theme by adding the following in _L
 ###	Authors
 
 - The awesome authors of [FlexSlider](https://github.com/woothemes/FlexSlider)
-- Shopified 
+- Shopified by [Adrian Pawliszko](http://nairda.ca)
