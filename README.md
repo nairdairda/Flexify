@@ -39,7 +39,7 @@ Open your theme's _Layout > theme.liquid_, and add the following into your heade
 {% endif %}
 ```
 
-Finally, include the Flexify snippet in your theme by adding the following in _Layout>theme.liquid_ wherever your heart desires. Don't forget to wrap it if necessary (_insert condom joke here_)!
+Finally, include the Flexify snippet in your theme by adding the following in _Layout>theme.liquid_ wherever your heart desires. Don't forget to wrap it if necessary (_insert condom joke here_).
 
 ```liquid
 {% if template == "index" and settings.slider_enabled %}
