@@ -26,7 +26,7 @@ Open your theme's _Layout > theme.liquid_, and add the following into your heade
 
 ```liquid
 {% comment %}
-	Load Flexify dependencies. Change template accordingly to enable the slider on other pages.
+	Load Flexify dependencies. Change template accordingly to enable the slider on other pages. Replace jquery.flexify.js with jquery.flexify.min.js for minified version. 
 {% endcomment %}
 {% if template == "index" and settings.slider_enabled %}
   {{ 'flexify.css' | asset_url | stylesheet_tag }}
